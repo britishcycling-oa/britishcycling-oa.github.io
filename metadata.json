@@ -1,5 +1,5 @@
 {
-  "dataset-site-url": "https://britishcycling-oa.github.io/",
+  "dataset-site-url": "http://data.goskyride.com/",
   "title": "British Cycling Sky Ride Sessions",
   "description": "Session data from the goskyride.com site",
   "publisher-name": "British Cycling",
@@ -13,7 +13,7 @@
   "license-name": "Creative Commons Attribution Licence (CC-BY v4.0)",
   "license-url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution-text": "British Cycling Sky Ride",
-  "attribution-url": "https://britishcycling-oa.github.io/",
-  "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us13.list-manage.com\",\"uuid\":\"9e6648557f84731796a4ac873\",\"lid\":\"2167da53bb\"}) })",
+  "attribution-url": "http://data.goskyride.com/",
+  "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us13.list-manage.com\",\"uuid\":\"7a25f3d18d853c90e5a31746d\",\"lid\":\"608d856fe9\"}) })",
   "copyright-notice": "<li>Image: <a href=\"https://commons.wikimedia.org/wiki/File:Otley_Cycle_Race_2009.jpg\">TJBlackwell from commons.wikimedia.org</a> licensed under <a href=\"https://creativecommons.org/licenses/by/3.0/deed.en\">Creative Commons Attribution 3.0 Unported</a>.</li>"
 }
