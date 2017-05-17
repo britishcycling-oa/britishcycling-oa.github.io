@@ -6,7 +6,7 @@
   "publisher-url": "https://www.britishcycling.org.uk",
   "keyword-1": "Cycling",
   "keyword-2": "Sky Ride",
-  "data-url": "http://api.ridesociallondon.co.uk/api/EventFeed",
+  "data-url": "http://api.letsride.co.uk/public/v1/rides",
   "created": "2016-07-04",
   "documentation-url": "https://github.com/britishcycling-oa/opendata",
   "rpde-version": "0.2.3",
