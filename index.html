@@ -40,31 +40,47 @@
     <!-- JSON-LD conforming to Google Structured Data specification. -->
     <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "Dataset",
-      "name" : "British Cycling Let's Ride Sessions",
-      "id": "http://data.letsride.co.uk/",
+      "@context": [
+        "https://schema.org/",
+        "https://openactive.io/"
+      ],
+      "@type": "Dataset",
+      "@id": "http://data.letsride.co.uk/",
       "url": "http://data.letsride.co.uk/",
-      "description" : "Session data from the letsride.co.uk site; published using OpenActive RPDE v1.0.",
+      "name": "British Cycling Let's Ride Sessions",
+      "description": "Session data from the letsride.co.uk site; published using OpenActive RPDE v1.0.",
       "keywords":[
-         "Cycling",
-         "Let's Ride",
-         "OpenActive"
+          "Cycling",
+          "Let's Ride",
+          "OpenActive"
       ],
       "license" : "https://creativecommons.org/licenses/by/4.0/",
-      "distribution" : {
-        "@type" : "DataDownload",
-        "encodingFormat" : "application/vnd.openactive.rpde+json; version=1.0",
-        "contentUrl" : "http://api.letsride.co.uk/public/v1/rides"
-      },
-      "inLanguage": "en-GB",
+      "distribution": [
+        {
+          "@type" : "DataDownload",
+          "encodingFormat" : "application/vnd.openactive.rpde+json; version={rpdeversion}",
+          "contentUrl" : "http://api.letsride.co.uk/public/v1/rides"
+        }
+      ],
+      "discussionUrl": "https://github.com/britishcycling-oa/opendata/issues",
+      "documentation": "https://github.com/britishcycling-oa/opendata",
+      "inLanguage": [
+        "en-GB"
+      ],
       "publisher": {
-         "@type": "Organization", 
-         "name": "British Cycling",
-         "url": "https://www.britishcycling.org.uk",
-         "logo": "http://data.letsride.co.uk/images/logo.png"
+        "@type": "Organization",
+        "name": "British Cycling",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "http://data.letsride.co.uk/images/logo.png"
+        },
+        "url": "https://www.britishcycling.org.uk"
       },
-      "datePublished" : "2016-07-04T00:00:00.000Z"
+      "datePublished": "2016-07-04T00:00:00.000Z",
+      "backgroundImage": {
+        "@type": "ImageObject",
+        "url": "http://data.letsride.co.uk/images/bg.jpg"
+      }
     }
     </script>
   </head>
